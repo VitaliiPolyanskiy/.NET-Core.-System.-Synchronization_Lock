@@ -49,7 +49,7 @@ namespace Synchronization_Lock
                     tasks[i].Wait();
                 }
 
-                Console.WriteLine("Суммарное значение: {0}", state.State);
+                Console.WriteLine("Сумарне значення: {0}", state.State);
             }
             catch (Exception ex)
             {
